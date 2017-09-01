@@ -1,0 +1,8 @@
+background no
+out_to_console yes
+update_interval 2.0
+total_run_times 0
+use_spacer none
+
+TEXT
+${cpu cpu1}% - ${cpu cpu2}% :: $memperc% ($mem) :: ${addr wlan0} :: ${downspeedf wlan0}KiB - ${upspeedf wlan0}KiB :: sda1 ${diskio sda1} - sdb1 ${diskio sdb1} :: ${time %a %b %d %H:%M}

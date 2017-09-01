@@ -1,0 +1,102 @@
+! new color ----------------------------------------------------------------------
+! file:     Xdefaults color scheme
+! author:   Thayer Williams - http://cinderwick.ca
+! vim:enc=utf-8:nu:ai:si:et:ts=4:sts=4:sw=4:ft=xdefaults:
+! ----------------------------------------------------------------------
+
+! Append the following to ~/.Xdefaults to import this color scheme:
+!   
+!       #include "/home/user/.Xdefaults.c.vimbrant"
+!
+
+!urxvt*cursorColor:      #fd971f
+*cursorColor: #bb9900
+
+! terminal colours
+*foreground:#a0a0a0
+!*background:#1b1d1e
+*background: #0D131A
+
+!black
+*color0:    #1b1d1e
+*color8:    #505354
+!red
+*color1:    #f92672
+*color9:    #ff5995
+!green
+*color2:    #82b414
+*color10:   #b6e354
+!yellow
+*color3:    #fd971f
+*color11:   #feed6c
+!blue
+*color4:    #56c2d6
+*color12:   #8cedff
+!magenta
+*color5:    #8c54fe
+*color13:   #9e6ffe
+!cyan
+*color6:    #465457
+*color14:   #899ca1
+*color6:    #56676b
+*color14:   #899ca1
+!white
+*color7:    #ccccc6
+*color15:   #f8f8f2
+*color7:    #bfbfba
+*color15:   #ebebe5
+*color7:    #aaaaaa
+*color15:   #ffffff
+
+! alsamixer scheme
+alsamixer*color1:   #ff2759
+alsamixer*color9:   #ff2759
+alsamixer*color2:   #52aebf
+alsamixer*color10:  #52aebf
+alsamixer*color7:   #ffffff
+alsamixer*color15:  #ffffff
+alsamixer*color11:  #777777
+alsamixer*color4:   #1b1d1e
+alsamixer*scrollBar: false
+
+
+
+
+!*background: #0D131A
+
+!*foreground: #bbbbbb
+!*background: #112233
+!*cursorColor: #bb9900
+!black
+!*color0:  #445566
+!*color8:  #445566
+!red
+!*color1:  #dd3366
+!*color9:  #dd3366
+!green
+!*color2:  #99aa00
+!*color10: #99aa00
+!yellow
+!*color3:  #bb9900
+!*color11: #bb9900
+!blue
+!*color4:  #3399dd
+!*color12: #3399dd
+!magenta
+!*color5:  #6666dd
+!*color13: #6666dd
+!cyan
+!*color6:  #339999
+!*color14: #339999
+!white
+!*color7:  #bbbbbb
+!*color15: #bbbbbb
+
+
+
+URxvt*geometry:        112x22  
+URxvt*font:            xft:osx4 terminus:size=8
+URxvt*urlLauncher:     firefox  
+URxvt*scrollBar:       false
+URxvt*scrollBar_right: true
+URxvt*scrollColor:     #000000

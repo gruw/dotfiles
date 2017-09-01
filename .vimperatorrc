@@ -1,0 +1,20 @@
+colorscheme fxdevtools-dark
+set gui=none
+set gui=tabs
+
+" Example keybinding: xt
+
+nmap xt :extraTab<SPACE>
+
+command! extraTab -nargs=1 -description "Open an extra tab" :js 
+extraTab("<args>");
+
+:js <<EOF
+
+function extraTab(args) {
+
+liberator.open(args, liberator.NEW_TAB)
+
+}
+
+EOF

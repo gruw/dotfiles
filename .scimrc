@@ -1,0 +1,3 @@
+color "type=HEADINGS fg=BLACK bg=CYAN"
+color "type=CELL_SELECTION fg=GREEN bg=CYAN"
+color "type=STRG fg=DEFAULT_COLOR bg=DEFAULT_COLOR"

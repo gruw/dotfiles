@@ -1,0 +1,50 @@
+mkdir Thee Merry Widows
+mkdir Demented Scumcats
+delete
+mkdir Amazing Crowns
+mkdir Andy & The Rockits
+mkdir Astrozombies
+mkdir Straycats
+mkdir Swampys
+mkdir Spamabilly
+mkdir Vinyl
+mkdir Chance
+mkdir Kims Convenience
+mkdir __psycz
+mkdir Green Wing
+search dubious
+search bastille
+search ice
+search Mr
+mkdir Mark Lanegan Band
+mkdir FLAC
+mkdir The Sopranos
+mkdir Stromae
+search stro
+mkdir Sparklehorse
+mkdir Badfinger
+mkdir Colony
+q\
+rename Colony.S01E01.Pilot.PREAiR.720p.WEBRip.x264-SRSXX
+delete 
+
+search north
+search pretty
+search attacks
+search war
+search drone
+search rob
+search accepted
+search cure
+search viking
+search lies
+search t2
+search red
+r VA - Joof
+mkdir VA - Joof
+search joof
+q
+mkdir colorschemes
+touch new
+rename black_flag_color
+open_with nano

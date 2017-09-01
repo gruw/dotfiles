@@ -1,0 +1,11 @@
+term screen-256color
+#terminfo rxvt-unicode "Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm"
+
+# Monitor wlan0 bandwidth and update every 5 s
+# Assign the output of this cmd to '%1`' and use it in the below hardstatus line:
+backtick 1 0 0 /usr/local/bin/wormulon -d 5 -i wlan0
+hardstatus alwayslastline "%{bw}[%H] [%?%-Lw%?%{wb}%n*%f %t%{bw}%?%+Lw%?]%=%{bw} [%1`] [%c:%s] [%l]"
+# Set the scrollback length:
+defscrollback 10000
+# Select whether you want to see the copyright notice during startup:
+startup_message off
